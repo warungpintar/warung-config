@@ -1,4 +1,4 @@
-/** @type {import("prettier").Config} */
+/** @type {import('prettier').Config} */
 module.exports = {
   bracketSpacing: true,
   singleQuote: true,

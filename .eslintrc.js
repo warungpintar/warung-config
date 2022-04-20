@@ -1,1 +1,5 @@
-module.exports = require('./packages/eslint');
+/** @type {import('eslint').Linter.Config} */
+module.exports = {
+  root: true,
+  ...require('./packages/eslint'),
+};
