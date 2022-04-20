@@ -4,8 +4,16 @@
   "description": "Warung Pintar configs",
   "author": "wartech@warungpintar.co",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "prettier --write \"./packages/*/*.{js,ts,tsx}\"",
+    "lint": "eslint \"./packages/*/*.{js,ts,tsx}\"",
+    "lint:fix": "eslint --fix \"./packages/*/*.{js,ts,tsx}\""
+  },
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^4.0.0",
+    "typescript": "^4.6.3"
   }
 }
