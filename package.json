@@ -2,5 +2,10 @@
   "name": "warung-config",
   "version": "0.0.1",
   "description": "Warung Pintar configs",
-  "author": "wartech@warungpintar.co"
+  "author": "wartech@warungpintar.co",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
