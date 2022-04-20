@@ -1,0 +1,15 @@
+{
+  "name": "warung-config-prettier",
+  "version": "0.0.1",
+  "description": "Base Prettier config used at Warung Pintar.",
+  "main": "index.js",
+  "repository": "https://github.com/warungpintar/warung-config.git",
+  "author": "Warung Pintar <wartech@warungpintar.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.0.0"
+  }
+}
