@@ -10,10 +10,10 @@ Install `eslint` and `warung-config-eslint` using your favourite package manager
 
 ```bash
 # npm
-npm install --save-dev eslint prettier warung-config-eslint
+npm install --save-dev eslint warung-config-eslint
 
 # yarn
-yarn add --dev eslint prettier warung-config-eslint
+yarn add --dev eslint warung-config-eslint
 ```
 
 Then, in your `.eslintrc` file, extend the config.
@@ -41,6 +41,10 @@ Similar thing for React Native projects, but with `warung-config-eslint/react-na
   "extends": ["warung-config-eslint/react-native"]
 }
 ```
+
+#### A note about Prettier
+
+This ESLint config also includes the Prettier plugin for ESLint. To make this config work, make sure you also have Prettier configured. [Click here](#prettier) to read how.
 
 ### TypeScript
 
