@@ -24,6 +24,10 @@ Then, in your `.eslintrc` file, extend the config.
 }
 ```
 
+> **A note about Prettier**
+>
+> This ESLint config also includes the Prettier plugin for ESLint. To make this config work, make sure you also have Prettier configured. [Click here](#prettier) to read how.
+
 #### React/React Native
 
 If you're working on a React project, extend `warung-config-eslint/react` instead.
@@ -41,10 +45,6 @@ Similar thing for React Native projects, but with `warung-config-eslint/react-na
   "extends": ["warung-config-eslint/react-native"]
 }
 ```
-
-#### A note about Prettier
-
-This ESLint config also includes the Prettier plugin for ESLint. To make this config work, make sure you also have Prettier configured. [Click here](#prettier) to read how.
 
 ### TypeScript
 
