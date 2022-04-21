@@ -10,7 +10,9 @@
   "scripts": {
     "format": "prettier --write \"./packages/*/*.{js,ts,tsx}\"",
     "lint": "eslint \"./packages/*/*.{js,ts,tsx}\"",
-    "lint:fix": "eslint --fix \"./packages/*/*.{js,ts,tsx}\""
+    "lint:fix": "eslint --fix \"./packages/*/*.{js,ts,tsx}\"",
+    "type-check": "tsc",
+    "validate": "yarn lint && yarn type-check"
   },
   "devDependencies": {
     "lerna": "^4.0.0",
