@@ -1,6 +1,6 @@
 {
-  "name": "warung-config-prettier",
-  "version": "0.0.1",
+  "name": "@warungpintar/prettier-config",
+  "version": "0.1.2",
   "description": "Base Prettier config used at Warung Pintar.",
   "main": "index.js",
   "repository": "https://github.com/warungpintar/warung-config.git",

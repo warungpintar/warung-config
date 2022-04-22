@@ -1,6 +1,6 @@
 {
-  "name": "warung-config-tsconfig",
-  "version": "0.0.1",
+  "name": "@warungpintar/typescript-config",
+  "version": "0.3.1",
   "description": "Warung Pintar TSConfig",
   "author": "wartech@warungpintar.co"
 }

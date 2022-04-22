@@ -1,6 +1,6 @@
 {
-  "name": "warung-config-eslint",
-  "version": "0.0.1",
+  "name": "@warungpintar/eslint-config",
+  "version": "0.2.2",
   "description": "Warung Pintar ESlint config",
   "main": "index.js",
   "files": [
