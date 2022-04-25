@@ -3,6 +3,10 @@
   "version": "0.2.2",
   "description": "Warung Pintar ESlint config",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "files": [
     "index.js",
     "react.js",
@@ -12,7 +16,8 @@
     "eslint",
     "config"
   ],
-  "author": "wartech@warungpintar.co",
+  "repository": "https://github.com/warungpintar/warung-config.git",
+  "author": "Warung Pintar <wartech@warungpintar.co>",
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">=8.0.0",
