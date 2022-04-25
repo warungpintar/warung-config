@@ -6,21 +6,21 @@
 
 ### ESLint
 
-Install `eslint` and `warung-config-eslint` using your favourite package manager:
+Install `eslint` and `@warungpintar/eslint-config` using your favourite package manager:
 
 ```bash
 # npm
-npm install --save-dev eslint warung-config-eslint
+npm install --save-dev eslint @warungpintar/eslint-config
 
 # yarn
-yarn add --dev eslint warung-config-eslint
+yarn add --dev eslint @warungpintar/eslint-config
 ```
 
 Then, in your `.eslintrc` file, extend the config.
 
 ```json
 {
-  "extends": ["warung-config-eslint"]
+  "extends": ["@warungpintar/eslint-config"]
 }
 ```
 
@@ -30,39 +30,39 @@ Then, in your `.eslintrc` file, extend the config.
 
 #### React/React Native
 
-If you're working on a React project, extend `warung-config-eslint/react` instead.
+If you're working on a React project, extend `@warungpintar/eslint-config/react` instead.
 
 ```json
 {
-  "extends": ["warung-config-eslint/react"]
+  "extends": ["@warungpintar/eslint-config/react"]
 }
 ```
 
-Similar thing for React Native projects, but with `warung-config-eslint/react-native`.
+Similar thing for React Native projects, but with `@warungpintar/eslint-config/react-native`.
 
 ```json
 {
-  "extends": ["warung-config-eslint/react-native"]
+  "extends": ["@warungpintar/eslint-config/react-native"]
 }
 ```
 
 ### TypeScript
 
-To use the tsconfig file provided here, install `warung-config-tsconfig` with your favourite package manager.
+To use the tsconfig file provided here, install `@warungpintar/typescript-config` with your favourite package manager.
 
 ```bash
 # npm
-npm install --save-dev warung-config-tsconfig
+npm install --save-dev @warungpintar/typescript-config
 
 # yarn
-yarn add --dev warung-config-tsconfig
+yarn add --dev @warungpintar/typescript-config
 ```
 
 Then, extend it in your `tsconfig.json`.
 
 ```json
 {
-  "extends": "warung-config-tsconfig/tsconfig.json"
+  "extends": "@warungpintar/typescript-config/tsconfig.json"
 }
 ```
 
@@ -74,17 +74,17 @@ We also supply a Prettier config for you to use in your projects. Install Pretti
 
 ```bash
 # npm
-npm install --save-dev prettier warung-config-prettier
+npm install --save-dev prettier @warungpintar/prettier-config
 
 # yarn
-yarn add --dev prettier warung-config-prettier
+yarn add --dev prettier @warungpintar/prettier-config
 ```
 
 Then, in your `package.json`, add the following key.
 
 ```json
 {
-  "prettier": "warung-config-prettier"
+  "prettier": "@warungpintar/prettier-config"
 }
 ```
 
@@ -92,7 +92,7 @@ If you would like to extend/override the Prettier config provided, you will have
 
 ```js
 module.exports = {
-  ...require('warung-config-prettier'),
+  ...require('@warungpintar/prettier-config'),
   semi: false,
 };
 ```
