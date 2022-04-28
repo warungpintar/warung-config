@@ -1,7 +1,7 @@
 {
   "name": "@warungpintar/eslint-config",
   "version": "0.2.2",
-  "description": "Warung Pintar ESlint config",
+  "description": "Warung Pintar ESLint config.",
   "main": "index.js",
   "publishConfig": {
     "access": "public",

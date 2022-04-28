@@ -96,3 +96,17 @@ module.exports = {
   semi: false,
 };
 ```
+
+### Installing canary versions
+
+To try out a bleeding-edge version of our configs, you can add the `@canary` tag in your install script (e.g. for ESLint):
+
+```bash
+# npm
+npm install --save-dev @warungpintar/eslint-config@canary
+
+# yarn
+yarn add --dev @warungpintar/eslint-config@canary
+```
+
+> **Note:** The canary version is more unstable and includes config changes that might be breaking. Please take note when including it in your projects.
