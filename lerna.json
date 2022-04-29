@@ -1,7 +1,12 @@
 {
-  "packages": [
-    "packages/*"
-  ],
   "npmClient": "yarn",
-  "version": "independent"
+  "packages": ["packages/*"],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "npmClient": "npm",
+      "allowBranch": ["master", "canary"],
+      "registry": "https://registry.npmjs.org/"
+    }
+  }
 }
