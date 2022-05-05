@@ -1,6 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: './index',
+  extends: '@warungpintar/eslint-config',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

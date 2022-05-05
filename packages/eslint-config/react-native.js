@@ -1,6 +1,6 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
-  extends: './react',
+  extends: '@warungpintar/eslint-config/react',
   env: {
     'react-native/react-native': true,
   },
