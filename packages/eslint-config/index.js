@@ -8,9 +8,9 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['eslint-comments'],
+  plugins: ['eslint-comments', '@typescript-eslint'],
   extends: [
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/eslint-recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
   ],
