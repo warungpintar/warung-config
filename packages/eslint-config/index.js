@@ -15,6 +15,7 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {
+    // TypeScript
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'off',
@@ -23,31 +24,8 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': ['error', { variables: false }],
     '@typescript-eslint/prefer-interface': 'off',
 
+    // ESLint comments
     'eslint-comments/no-unused-disable': 'warn',
-
-    // Other
-    'array-callback-return': 'warn',
-    camelcase: 'off',
-    curly: 'warn',
-    'eol-last': 'warn',
-    eqeqeq: ['error', 'always', { null: 'never' }],
-    'guard-for-in': 'warn',
-    'no-alert': 'warn',
-    'no-console': 'warn', // do we need this?
-    'no-const-assign': 'warn',
-    'no-debugger': 'warn',
-    'no-duplicate-imports': ['warn', { includeExports: true }],
-    'no-floating-decimal': 'warn',
-    'no-new': 'warn',
-    'no-proto': 'warn',
-    'no-return-assign': 'warn',
-    'no-underscore-dangle': ['warn', { allowAfterThis: true }],
-    'no-unneeded-ternary': 'warn',
-    'one-var': ['warn', 'never'],
-    'prefer-arrow-callback': 'warn',
-    'prefer-const': 'off',
-    radix: 'warn',
-    yoda: 'warn',
 
     // Code Style
     'array-bracket-spacing': ['warn', 'never'],
@@ -85,5 +63,29 @@ module.exports = {
     'space-in-parens': 'warn',
     'space-infix-ops': 'warn',
     'space-unary-ops': 'warn',
+
+    // Other
+    'array-callback-return': 'warn',
+    camelcase: 'off',
+    curly: 'warn',
+    'eol-last': 'warn',
+    eqeqeq: ['error', 'always', { null: 'never' }],
+    'guard-for-in': 'warn',
+    'no-alert': 'warn',
+    'no-console': 'warn', // do we need this?
+    'no-const-assign': 'warn',
+    'no-debugger': 'warn',
+    'no-duplicate-imports': ['warn', { includeExports: true }],
+    'no-floating-decimal': 'warn',
+    'no-new': 'warn',
+    'no-proto': 'warn',
+    'no-return-assign': 'warn',
+    'no-underscore-dangle': ['warn', { allowAfterThis: true }],
+    'no-unneeded-ternary': 'warn',
+    'one-var': ['warn', 'never'],
+    'prefer-arrow-callback': 'warn',
+    'prefer-const': 'off',
+    radix: 'warn',
+    yoda: 'warn',
   },
 };
