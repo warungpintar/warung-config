@@ -26,7 +26,7 @@ Then, in your `.eslintrc` file, extend the config.
 
 > **A note about Prettier**
 >
-> This ESLint config also includes the Prettier plugin for ESLint. To make this config work, make sure you also have Prettier configured. [Click here](#prettier) to read how.
+> This ESLint config also includes the Prettier plugin for ESLint. To make this config work, make sure you also have Prettier configured by installing the `@warungpintar/prettier-config` package.
 
 #### React/React Native
 
