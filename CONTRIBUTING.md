@@ -92,7 +92,7 @@ $ code .
 
 ## Commit messages and Pull Request titles
 
-We are following [conventional commit](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) guideline to determine semantic version and changelog auto generation. Currently, the presets that we use is [angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md).
+We are following [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) guidelines to determine semantic version and changelog auto generation. Currently, the presets that we use is [angular](https://github.com/angular/angular/blob/master/CONTRIBUTING.md).
 
 ### Type
 
