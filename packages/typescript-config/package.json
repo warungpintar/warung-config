@@ -1,6 +1,10 @@
 {
   "name": "@warungpintar/typescript-config",
   "version": "0.3.2-canary.0",
+  "files": [
+    "tsconfig.json"
+  ],
+  "main": "tsconfig.json",
   "description": "Warung Pintar TypeScript config.",
   "publishConfig": {
     "access": "public",
