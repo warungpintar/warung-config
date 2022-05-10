@@ -1,6 +1,6 @@
 {
   "name": "@warungpintar/typescript-config",
-  "version": "0.3.2-canary.0",
+  "version": "0.3.2-canary.1",
   "files": [
     "tsconfig.json"
   ],
