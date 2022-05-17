@@ -1,3 +1,5 @@
+/* */
+
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   env: {
@@ -10,6 +12,7 @@ module.exports = {
   },
   plugins: ['eslint-comments', '@typescript-eslint'],
   extends: [
+    'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'prettier/@typescript-eslint',
     'plugin:prettier/recommended',
