@@ -1,6 +1,6 @@
 {
   "name": "@warungpintar/eslint-config",
-  "version": "0.0.1-canary.1",
+  "version": "0.0.1-canary.2",
   "description": "Warung Pintar ESLint config.",
   "main": "index.js",
   "publishConfig": {
