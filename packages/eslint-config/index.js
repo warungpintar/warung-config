@@ -1,5 +1,3 @@
-/* */
-
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   env: {
@@ -36,7 +34,6 @@ module.exports = {
     'arrow-spacing': 'warn',
     'object-curly-spacing': ['warn', 'always'],
     'brace-style': ['warn', '1tbs', { allowSingleLine: false }],
-    // 'comma-dangle': ['warn', 'always-multiline'],
     'comma-spacing': 'warn',
     'jsx-quotes': ['warn', 'prefer-double'],
     'key-spacing': 'warn',
@@ -52,8 +49,6 @@ module.exports = {
       'single',
       { avoidEscape: true, allowTemplateLiterals: true },
     ],
-    // 'semi-spacing': 'warn',
-    // semi: 'warn',
     'space-before-blocks': 'warn',
     'space-before-function-paren': [
       'warn',
@@ -75,7 +70,7 @@ module.exports = {
     eqeqeq: ['error', 'always', { null: 'never' }],
     'guard-for-in': 'warn',
     'no-alert': 'warn',
-    'no-console': 'warn', // do we need this?
+    'no-console': 'warn',
     'no-const-assign': 'warn',
     'no-debugger': 'warn',
     'no-duplicate-imports': ['warn', { includeExports: true }],
