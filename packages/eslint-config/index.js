@@ -8,7 +8,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['eslint-comments', '@typescript-eslint', 'prettier'],
+  plugins: ['import', 'eslint-comments', '@typescript-eslint', 'prettier'],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/eslint-recommended',
@@ -30,6 +30,9 @@ module.exports = {
     // ESLint comments
     'eslint-comments/no-unused-disable': 'warn',
 
+    // eslint-plugin-import
+    'import/named': 'error',
+
     // Other
     'array-callback-return': 'warn',
     camelcase: 'off',
@@ -50,5 +53,17 @@ module.exports = {
     'prefer-const': 'off',
     radix: 'warn',
     yoda: 'warn',
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.mjs', '.js', '.ts', '.json'],
+      },
+    },
+    'import/extensions': ['.js', '.mjs', '.jsx', '.ts', '.tsx'],
+    'import/ignore': [
+      'node_modules',
+      '\\.(coffee|scss|css|less|hbs|svg|json)$',
+    ],
   },
 };
