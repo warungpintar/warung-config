@@ -34,8 +34,9 @@ module.exports = {
     'import/named': 'error',
 
     // Other
-    'array-callback-return': 'warn',
+    'array-callback-return': ['error', { allowImplicit: true }],
     camelcase: 'off',
+    complexity: ['warn', { max: 20 }],
     eqeqeq: ['error', 'always', { null: 'never' }],
     'guard-for-in': 'warn',
     'no-alert': 'warn',
@@ -48,6 +49,10 @@ module.exports = {
     'no-return-assign': 'warn',
     'no-underscore-dangle': ['warn', { allowAfterThis: true }],
     'no-unneeded-ternary': 'warn',
+    'no-warning-comments': [
+      'warn',
+      { terms: ['todo', 'bug', 'fixme', 'hack', 'xxx'] },
+    ],
     'one-var': ['warn', 'never'],
     'prefer-arrow-callback': 'warn',
     'prefer-const': 'off',
